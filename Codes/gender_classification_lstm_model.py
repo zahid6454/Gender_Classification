@@ -257,7 +257,7 @@ print(tabulate(test_table, headers= ['Name', 'Gender']))
 ##### 50K Test Data #####
 
 # Loading Saved Model
-model = keras.models.load_model("/content/drive/MyDrive/Colab Notebooks/Models/Model - Run 3.h5")
+# model = keras.models.load_model("/content/drive/MyDrive/Colab Notebooks/Models/Model - Run 3.h5")
 
 # Load test data
 test_df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/Datasets/Dataset_0.6_Million.csv")
